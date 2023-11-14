@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>smart_home package &#8212; Smart Home IoT Automation Simulator 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=039e1c02" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Smart Home IoT Automation Simulator’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+
+
+
+
+  <section id="smart-home-package">
+<h1>smart_home package<a class="headerlink" href="#smart-home-package" title="Link to this heading">¶</a></h1>
+<section id="module-smart_home.main">
+<span id="smart-home-main-module"></span><h2>smart_home.main module<a class="headerlink" href="#module-smart_home.main" title="Link to this heading">¶</a></h2><p>Main entry point for the smart home application.</p>
+</section>
+<section id="module-smart_home.security_camera">
+<span id="smart-home-security-camera-module"></span><h2>smart_home.security_camera module<a class="headerlink" href="#module-smart_home.security_camera" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smart_home.security_camera.</span></span><span class="sig-name descname"><span class="pre">SecurityCamera</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">security_status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class representing a security camera in the smart home system.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.get_id">
+<span class="sig-name descname"><span class="pre">get_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.get_id" title="Link to this definition">¶</a></dt>
+<dd><p>Get the ID of the security camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.get_security_status">
+<span class="sig-name descname"><span class="pre">get_security_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.get_security_status" title="Link to this definition">¶</a></dt>
+<dd><p>Get the security status of the camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.get_status">
+<span class="sig-name descname"><span class="pre">get_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.get_status" title="Link to this definition">¶</a></dt>
+<dd><p>Get the status of the security camera (ON or OFF).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.set_id">
+<span class="sig-name descname"><span class="pre">set_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.set_id" title="Link to this definition">¶</a></dt>
+<dd><p>Set the ID of the security camera.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>id (str): The new ID for the security camera.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.set_random_security_status">
+<span class="sig-name descname"><span class="pre">set_random_security_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.set_random_security_status" title="Link to this definition">¶</a></dt>
+<dd><p>Set a random security status for the camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.set_security_status">
+<span class="sig-name descname"><span class="pre">set_security_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">security_status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.set_security_status" title="Link to this definition">¶</a></dt>
+<dd><p>Set the security status of the camera.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>security_status (str): The new security status for the camera (SAFE or UNSAFE).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.set_status">
+<span class="sig-name descname"><span class="pre">set_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.set_status" title="Link to this definition">¶</a></dt>
+<dd><p>Set the status of the security camera.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>status (bool): The new status for the security camera (True if ON, False if OFF).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.turn_off">
+<span class="sig-name descname"><span class="pre">turn_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.turn_off" title="Link to this definition">¶</a></dt>
+<dd><p>Turn off the security camera.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the security camera (False).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.security_camera.SecurityCamera.turn_on">
+<span class="sig-name descname"><span class="pre">turn_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.security_camera.SecurityCamera.turn_on" title="Link to this definition">¶</a></dt>
+<dd><p>Turn on the security camera.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the security camera (True).</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-smart_home.smart_light">
+<span id="smart-home-smart-light-module"></span><h2>smart_home.smart_light module<a class="headerlink" href="#module-smart_home.smart_light" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smart_home.smart_light.</span></span><span class="sig-name descname"><span class="pre">SmartLight</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">brightness</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class representing a smart light in the smart home system.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.get_brightness">
+<span class="sig-name descname"><span class="pre">get_brightness</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.get_brightness" title="Link to this definition">¶</a></dt>
+<dd><p>Get the current brightness level of the smart light.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.get_id">
+<span class="sig-name descname"><span class="pre">get_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.get_id" title="Link to this definition">¶</a></dt>
+<dd><p>Get the ID of the smart light.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.get_status">
+<span class="sig-name descname"><span class="pre">get_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.get_status" title="Link to this definition">¶</a></dt>
+<dd><p>Get the status of the smart light (ON or OFF).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.set_brightness">
+<span class="sig-name descname"><span class="pre">set_brightness</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">brightness</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.set_brightness" title="Link to this definition">¶</a></dt>
+<dd><p>Set the brightness level of the smart light.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>brightness (int): The new brightness level (0 to 100).</p>
+</dd>
+<dt>Returns:</dt><dd><p>int: The new brightness level of the smart light.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.set_id">
+<span class="sig-name descname"><span class="pre">set_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.set_id" title="Link to this definition">¶</a></dt>
+<dd><p>Set the ID of the smart light.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>id (str): The new ID for the smart light.</p>
+</dd>
+<dt>Returns:</dt><dd><p>str: The new ID of the smart light.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.set_status">
+<span class="sig-name descname"><span class="pre">set_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.set_status" title="Link to this definition">¶</a></dt>
+<dd><p>Set the status of the smart light.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>status (bool): The new status for the smart light (True if ON, False if OFF).</p>
+</dd>
+<dt>Returns:</dt><dd><p>bool: The new status of the smart light.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.turn_off">
+<span class="sig-name descname"><span class="pre">turn_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.turn_off" title="Link to this definition">¶</a></dt>
+<dd><p>Turn off the smart light.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the smart light (False).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.smart_light.SmartLight.turn_on">
+<span class="sig-name descname"><span class="pre">turn_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.smart_light.SmartLight.turn_on" title="Link to this definition">¶</a></dt>
+<dd><p>Turn on the smart light.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the smart light (True).</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-smart_home.thermostat">
+<span id="smart-home-thermostat-module"></span><h2>smart_home.thermostat module<a class="headerlink" href="#module-smart_home.thermostat" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smart_home.thermostat.</span></span><span class="sig-name descname"><span class="pre">Thermostat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">temperature</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class representing a thermostat in the smart home system.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.get_id">
+<span class="sig-name descname"><span class="pre">get_id</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.get_id" title="Link to this definition">¶</a></dt>
+<dd><p>Get the ID of the thermostat.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.get_status">
+<span class="sig-name descname"><span class="pre">get_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.get_status" title="Link to this definition">¶</a></dt>
+<dd><p>Get the status of the thermostat (ON or OFF).</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.get_temperature">
+<span class="sig-name descname"><span class="pre">get_temperature</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.get_temperature" title="Link to this definition">¶</a></dt>
+<dd><p>Get the current temperature set on the thermostat.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.set_id">
+<span class="sig-name descname"><span class="pre">set_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.set_id" title="Link to this definition">¶</a></dt>
+<dd><p>Set the ID of the thermostat.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>id (str): The new ID for the thermostat.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.set_status">
+<span class="sig-name descname"><span class="pre">set_status</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.set_status" title="Link to this definition">¶</a></dt>
+<dd><p>Set the status of the thermostat.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>status (bool): The new status for the thermostat (True if ON, False if OFF).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.set_temperature">
+<span class="sig-name descname"><span class="pre">set_temperature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">temperature</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.set_temperature" title="Link to this definition">¶</a></dt>
+<dd><p>Set the temperature on the thermostat.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>temperature (float): The new temperature set on the thermostat.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.turn_off">
+<span class="sig-name descname"><span class="pre">turn_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.turn_off" title="Link to this definition">¶</a></dt>
+<dd><p>Turn off the thermostat.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the thermostat (False).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.thermostat.Thermostat.turn_on">
+<span class="sig-name descname"><span class="pre">turn_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.thermostat.Thermostat.turn_on" title="Link to this definition">¶</a></dt>
+<dd><p>Turn on the thermostat.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: The new status of the thermostat (True).</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-smart_home.central_automation_system">
+<span id="smart-home-central-automation-system-module"></span><h2>smart_home.central_automation_system module<a class="headerlink" href="#module-smart_home.central_automation_system" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="smart_home.central_automation_system.CentralAutomationSystem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smart_home.central_automation_system.</span></span><span class="sig-name descname"><span class="pre">CentralAutomationSystem</span></span><a class="headerlink" href="#smart_home.central_automation_system.CentralAutomationSystem" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class representing the central automation system for the smart home.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.central_automation_system.CentralAutomationSystem.add_device">
+<span class="sig-name descname"><span class="pre">add_device</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.central_automation_system.CentralAutomationSystem.add_device" title="Link to this definition">¶</a></dt>
+<dd><p>Add a device to the automation system.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>device: The device to be added to the automation system.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.central_automation_system.CentralAutomationSystem.get_devices">
+<span class="sig-name descname"><span class="pre">get_devices</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.central_automation_system.CentralAutomationSystem.get_devices" title="Link to this definition">¶</a></dt>
+<dd><p>Get all devices in the automation system.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>list: A list of devices in the automation system.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.central_automation_system.CentralAutomationSystem.remove_device">
+<span class="sig-name descname"><span class="pre">remove_device</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.central_automation_system.CentralAutomationSystem.remove_device" title="Link to this definition">¶</a></dt>
+<dd><p>Remove a device from the automation system by its ID.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>device_id (str): The unique identifier of the device to be removed.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-smart_home.monitoring_dashboard">
+<span id="smart-home-monitoring-dashboard-module"></span><h2>smart_home.monitoring_dashboard module<a class="headerlink" href="#module-smart_home.monitoring_dashboard" title="Link to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">smart_home.monitoring_dashboard.</span></span><span class="sig-name descname"><span class="pre">SmartHomeGUI</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">automation_system</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">QMainWindow</span></code></p>
+<p>Class representing the Smart Home Monitoring Dashboard.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.add_new_device">
+<span class="sig-name descname"><span class="pre">add_new_device</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.add_new_device" title="Link to this definition">¶</a></dt>
+<dd><p>Add a new device to the smart home system based on user input.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.create_widgets">
+<span class="sig-name descname"><span class="pre">create_widgets</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.create_widgets" title="Link to this definition">¶</a></dt>
+<dd><p>Create the widgets for the Smart Home Monitoring Dashboard.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.remove_selected_device">
+<span class="sig-name descname"><span class="pre">remove_selected_device</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.remove_selected_device" title="Link to this definition">¶</a></dt>
+<dd><p>Remove the selected device from the smart home system.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.show_message">
+<span class="sig-name descname"><span class="pre">show_message</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.show_message" title="Link to this definition">¶</a></dt>
+<dd><p>Show a message box with the given title and message.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.show_security_status">
+<span class="sig-name descname"><span class="pre">show_security_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.show_security_status" title="Link to this definition">¶</a></dt>
+<dd><p>Show the security status of the security camera.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.toggle_security_camera">
+<span class="sig-name descname"><span class="pre">toggle_security_camera</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.toggle_security_camera" title="Link to this definition">¶</a></dt>
+<dd><p>Toggle the status of the security camera and update the device status.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.toggle_smart_light">
+<span class="sig-name descname"><span class="pre">toggle_smart_light</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.toggle_smart_light" title="Link to this definition">¶</a></dt>
+<dd><p>Toggle the status of the smart light and update the device status.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.toggle_thermostat">
+<span class="sig-name descname"><span class="pre">toggle_thermostat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.toggle_thermostat" title="Link to this definition">¶</a></dt>
+<dd><p>Toggle the status of the thermostat and update the device status.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.update_brightness_slider">
+<span class="sig-name descname"><span class="pre">update_brightness_slider</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.update_brightness_slider" title="Link to this definition">¶</a></dt>
+<dd><p>Update the brightness slider based on the status of the smart light.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.update_device_status">
+<span class="sig-name descname"><span class="pre">update_device_status</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.update_device_status" title="Link to this definition">¶</a></dt>
+<dd><p>Update the status of devices on the monitoring dashboard.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="smart_home.monitoring_dashboard.SmartHomeGUI.update_remove_device_dropdown">
+<span class="sig-name descname"><span class="pre">update_remove_device_dropdown</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#smart_home.monitoring_dashboard.SmartHomeGUI.update_remove_device_dropdown" title="Link to this definition">¶</a></dt>
+<dd><p>Update the remove device dropdown with the list of devices in the smart home system.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Smart Home IoT Automation Simulator</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">smart_home package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.main">smart_home.main module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.security_camera">smart_home.security_camera module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.smart_light">smart_home.smart_light module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.thermostat">smart_home.thermostat module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.central_automation_system">smart_home.central_automation_system module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-smart_home.monitoring_dashboard">smart_home.monitoring_dashboard module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Smart Home IoT Automation Simulator’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Nahid Muradli.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/smart_home.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

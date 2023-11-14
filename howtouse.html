@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulator Guide</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-top: 20px;
+            font-size: 1.8em;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: yellow;
+        }
+    </style>
+    <script>
+        // JavaScript to scroll to the top of the page on refresh
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Simulator User Guide</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <!-- Add more navigation links if needed -->
+    </nav>
+
+    <section>
+        <h2>How to Run the Program</h2>
+        <p>To run the program, execute "main.py" located in the smart_home folder.</p>
+    </section>
+
+    <section>
+        <h2>How to Add a Device</h2>
+        <p>Follow the steps shown in the image below:</p>
+        <img src="HowToAdd.png" alt="Adding a Device">
+    </section>
+
+    <section>
+        <h2>How to Remove a Device</h2>
+        <p>Refer to the image below for instructions on removing a device:</p>
+        <img src="HowToRemove.png" alt="Removing a Device">
+    </section>
+
+    <section>
+        <h2>How to Use</h2>
+        <p>Learn how to use the simulator with the help of the following image:</p>
+        <img src="HowToUse.png" alt="Simulator Usage">
+    </section>
+
+    <footer>
+        <p><a href="index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>
